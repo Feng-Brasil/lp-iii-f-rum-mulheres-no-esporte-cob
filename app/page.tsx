@@ -3,10 +3,20 @@ export default function Home() {
     <main className="min-h-screen bg-[#ffffff] text-[#4b2c6d] font-sans selection:bg-[#7e57c2] selection:text-white">
       {/* Header / Hero Section */}
       <section className="relative overflow-hidden bg-gradient-to-br from-[#4b2c6d] to-[#6a1b9a] py-20 px-6 text-white">
-        <div className="max-w-5xl mx-auto text-center relative z-10">
-          <div className="inline-block px-4 py-1.5 mb-6 bg-[#ffffff20] backdrop-blur-md rounded-full text-sm font-semibold tracking-wide uppercase">
+        <div className="max-w-5xl mx-auto flex flex-col items-center text-center relative z-10">
+          <div className="inline-block px-4 py-1.5 mb-8 bg-[#ffffff20] backdrop-blur-md rounded-full text-sm font-semibold tracking-wide uppercase">
             Comitê Olímpico do Brasil
           </div>
+          
+          {/* Imagem Adicionada no Primeiro Scroll */}
+          <div className="w-full max-w-2xl mb-10 rounded-2xl overflow-hidden shadow-2xl border-4 border-[#ffffff20]">
+            <img 
+              src="https://images.libero.fengbrasil.com.br/uploads/LP_CONFIRMACAO_jpg_1773348470401_eouime.jpg" 
+              alt="III Fórum Mulheres no Esporte COB"
+              className="w-full h-auto object-cover"
+            />
+          </div>
+
           <h1 className="text-4xl md:text-6xl font-extrabold mb-6 leading-tight">
             III Fórum Mulheres no Esporte COB
           </h1>
